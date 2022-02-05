@@ -1,6 +1,6 @@
 # DESCRIPTION
 
-Telecom Billing System, can perform and manage billing operations like they do in Telecom companies. Here, we can add records with name, phone number and the amount of payment. You can view, modify, search and delete existing records.Using this we can also make payment by providing your phone number instead of name. All data added or modified are recorded in a file. This project will teach you how to add, list, edit, search and delete records using file handling.
+Telephone Billing System, can perform and manage billing operations like they do in Telephonic companies. Here, we can add records with name, phone number and the amount of payment. You can view, modify, search and delete existing records.Using this we can also make payment by providing your phone number instead of name. All data added or modified are recorded in a file. This project will teach you how to add, list, edit, search and delete records using file handling.
 
 
 # FEATURES
@@ -15,26 +15,26 @@ Telecom Billing System, can perform and manage billing operations like they do i
 # REQURIEMENTS
 
 ## HIGH LEVEL REQURIEMENTS
-* HLR1 ---> Adding new records (A)
+* HLR01 ---> Adding new records (A)
 
-* HLR2 ---> List of records (L)
+* HLR02 ---> List of records (L)
 
-* HLR3 ---> Modifying records (M)
+* HLR03 ---> Modifying records (M)
 
-* HLR4 ---> Payment(P)
+* HLR04 ---> Payment(P)
 
-* HLR5 ---> For searching records(S)
+* HLR05 ---> For searching records(S)
  
-* HLR6 ---> Deleting records(D)
+* HLR06 ---> Deleting records(D)
 
-* HLR7 ---> Exit(E)
+* HLR07 ---> Exit(E)
 
 ## LOW LEVEL REQURIEMENTS
-* LLR1 ---> Name
+* LLR01 ---> Name
 
-* LLR2 ---> Phone number
+* LLR02 ---> Phone number
 
-* LLR3 ---> Amount
+* LLR03 ---> Amount
 
 
 # SWOT ANALYSIS
@@ -54,4 +54,4 @@ WHEN : Used for billing.
 WHY : For easy and faster billing.
 
 ## 1H:
-How : Operates by user inputs.
+HOW : Operates by user inputs.
