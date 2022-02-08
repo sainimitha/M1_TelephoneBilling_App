@@ -15,10 +15,10 @@
 #include<ctype.h>
 #include<stdlib.h>
 #include "TelePhoneBill.h"
-#include "addrecords.c"
-#include "payment.c"
-#include "searchrecords.c"
-#include "deleterecords.c"
+#include "AddRecords.h"
+#include "payment.h"
+#include "SearchRecords.h"
+#include "DeleteRecords.h"
 
 void payment();
 void addrecords();      //Intializing addrecords function
