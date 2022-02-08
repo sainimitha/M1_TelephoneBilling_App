@@ -1,7 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
 #include<ctype.h>
-#include<windows.h>
 #include<stdlib.h>
 #include "TelePhoneBill.h"
 
@@ -39,6 +37,6 @@ void payment()
 	}
 	system("cls");
 	printf("THANK YOU %s FOR YOUR TIMELY PAYMENTS",s.name);
-	getch();
+
 	fclose(f);
 }

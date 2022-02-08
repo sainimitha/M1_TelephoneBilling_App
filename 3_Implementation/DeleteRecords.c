@@ -1,7 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
 #include<ctype.h>
-#include<windows.h>
 #include<stdlib.h>
 #include "TelePhoneBill.h"
 
@@ -43,5 +41,5 @@ void deleterecords()
 	printf("The Number %s Successfully Deleted!!!!",phonenumber);
 	fclose(f);
 	fclose(t);
-	getch();
+
 }

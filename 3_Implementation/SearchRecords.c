@@ -1,7 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
 #include<ctype.h>
-#include<windows.h>
 #include<stdlib.h>
 #include "TelePhoneBill.h"
 
@@ -30,6 +28,6 @@ void searchrecords()
 			printf("Requested Phone Number Not found in our database");
 		}
 	}
-	getch();
+	
 	fclose(f);
 }
