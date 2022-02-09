@@ -14,27 +14,6 @@ Telephone Billing System, can perform and manage billing operations like they do
 * Deleting records : delete the data which is stored. 
 
 
-# REQURIEMENTS
-
-## HIGH LEVEL REQURIEMENTS
-* HLR01 ---> Adding new records (A)
-
-* HLR02 ---> Payment(P)
-
-* HLR03 ---> For searching records(S)
- 
-* HLR04 ---> Deleting records(D)
-
-* HLR05 ---> Exit(E)
-
-## LOW LEVEL REQURIEMENTS
-* LLR01 ---> Name
-
-* LLR02 ---> Phone number
-
-* LLR03 ---> Amount
-
-
 # SWOT ANALYSIS
 
 ![Untitled Workspace (1)](https://user-images.githubusercontent.com/82401251/152638461-80c5c1e7-211c-404a-b6ab-d468a7897d5f.jpg)
@@ -53,6 +32,25 @@ WHY : For easy and faster billing.
 
 ## 1H:
 HOW : Operates by user inputs.
+
+## HIGH LEVEL REQURIEMENTS
+
+|HLR(ID)| Description|
+---  | --- |
+|HLR01| Adding new records (A)|
+|HLR02|  Payment(P)|
+|HLR03|  For searching records(S)|
+|HLR04|  Deleting records(D)|
+|HLR05|  Exit(E)|
+
+
+## LOW LEVEL REQURIEMENTS
+
+|LLR(ID)| Description|
+---  | --- |
+|LLR01|  Name|
+|LLR02|  Phone number|
+|LLR03|  Amount|
 
 
 # Behavioural Design
