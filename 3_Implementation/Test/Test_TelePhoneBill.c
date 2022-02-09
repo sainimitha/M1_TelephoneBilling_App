@@ -3,6 +3,12 @@
 #include "DeleteRecords.h"
 #include "AddRecords.h"
 
+#define PROJECT_NAME "Telephone Bill"
+
+/* Prototypes for all the test functions */
+
+void test_AddRecords(void);
+void test_DeleteRecords(void);
 
 /* Required by the unity test framework */
 void setUp(void) 
