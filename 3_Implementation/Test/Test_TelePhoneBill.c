@@ -3,7 +3,7 @@
 #include "DeleteRecords.h"
 #include "AddRecords.h"
 
-#define PROJECT_NAME "Telephone Bill"
+#define PROJECT_NAME "Telephone_Bill"
 
 /* Prototypes for all the test functions */
 

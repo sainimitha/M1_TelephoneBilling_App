@@ -1,7 +1,7 @@
 #TargetName : Dependencies
 #<TAB>commands
 
-PROJ_NAME=Telephone Bill
+PROJ_NAME=Telephone_Bill
 SRC=src/TelephoneBill.c src/AddRecords.c src/DeleteRecords.c src/payment.c src/SearchRecords.c src/unity.c
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
