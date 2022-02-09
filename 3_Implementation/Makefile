@@ -1,21 +1,10 @@
 #TargetName : Dependencies
 #<TAB>commands
 
-# Name of the project
-PROJECT_NAME = Telephone Bill
+PROJ_NAME=Telephone Bill
+SRC=src/TelephoneBill.c src/AddRecords.c src/DeleteRecords.c src/payment.c src/SearchRecords.c src/unity.c
 
-# Output directory
-BUILD = build
-
-
-#All Source code file
-SRC =src/TelephoneBill.c\ src/AddRecords.c\ src/DeleteRecords.c\ src/payment.c\ src/SearchRecords.c\
-
-# All test source files
-TEST_SRC = Test/Test_TelePhoneBill.c\
-Unity/unity.c\
-
-#To check if the OS is windows or linux and set the executable file extension and delete command accordingly
+#To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
    RM = del /q
    FixPath = $(subst /,\,$1)
@@ -27,3 +16,12 @@ else
 	  EXEC = out
    endif
 endif
+
+Build : $(SRC)
+	gcc $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+
+Run : Build
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+Clean:
+	$(RM) $(call FixPath,*.out)
