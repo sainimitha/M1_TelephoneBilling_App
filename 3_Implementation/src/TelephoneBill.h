@@ -9,7 +9,7 @@
 struct subscriber
 {
 char phonenumber[20];
-char name[50];
+char name[100];
 float amount;
 }s;
 

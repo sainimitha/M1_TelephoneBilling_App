@@ -19,17 +19,17 @@ void addrecords()
 	{
 		system("cls");
 		printf("\n Enter phone number:");
-		scanf("%d",&s.phonenumber);
+		scanf("%s",s.phonenumber);
 		printf("\n Enter name:");
-		scanf("%s",&s.name);
+		scanf("%s\n",s.name);
 		printf("\n Enter amount:");
 		scanf("%f",&s.amount);
 		fwrite(&s,sizeof(s),1,f);
 		system("cls");
 		printf("1 record successfully added");
 		printf("\n Press esc key to exit, any other key to add other record:");
-		char test;
-		test=getche();
+		int test;
+		scanf("%d",&test);
 		if(test==27)
 			break;
 	}

@@ -30,24 +30,18 @@ char get;
 
 int main()
 {			
-	system("cls");
-	printf("\n\n\n\n\n\n\n\n\n**********************");
-	printf("\n\t\t------WELCOME TO THE TELECOM BILLING MANAGEMENT SYSTEM---");
-	printf("\n\t\t**********************");
-	getch();
-    system("cls");
+	
 	while (1)
 	{
-		system("cls");
 		printf("\n Enter\n A : for New Phone number addition.");
 		printf("\n P : for bill payment");
 		printf("\n S : for searching phone number.");
 		printf("\n D : for deleting phone number.");
 		printf("\n E : for close the program\n");
-		char choice;
-		choice=getche();
-		choice=toupper(choice);
-		switch(choice)
+		char option;
+        printf("Enter your choice :\n");
+        scanf("%s", &option);
+		switch(option)
 		{
 			case 'P':
 				payment();break;
@@ -67,7 +61,6 @@ int main()
 				system("cls");
 				printf("Incorrect Input");
 				printf("\nAny key to continue");
-				getch();
 		}
 	}
 }

@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<ctype.h>
 #include<stdlib.h>
+#include<string.h>
 #include "TelePhoneBill.h"
 
 
@@ -30,7 +31,7 @@ void deleterecords()
 		printf("Phone number \"%s\"  found",phonenumber);
 		remove("c:/file.ojs");
 		rename("c:/temp.ojs","c:/file.ojs");
-		getch();
+		
 		fclose(f);
 		fclose(t);
 	}else
