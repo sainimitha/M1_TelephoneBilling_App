@@ -23,5 +23,15 @@ Build : $(SRC)
 Run : Build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
+static_analysis:
+   cppcheck --enable=all $(SRC)
+
+dynamic_analysis: Build
+   valgrind ./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+coverage:
+	gcc -fprofile-arcs -ftest-coverage $(SRC) -Iinc -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+	gcov -a src/TelephoneBill.c src/AddRecords.c src/payment.c src/DeleteRecords.c src/SearchRecords.c 
 Clean:
 	$(RM) $(call FixPath,*.out)
