@@ -30,7 +30,9 @@ char get;
 
 int main()
 {			
-	
+	printf("\n\t\t\t\t**********************");
+	printf("\n\t\t------WELCOME TO THE TELECOM BILLING MANAGEMENT SYSTEM---");
+	printf("\n\t\t\t\t**********************");
 	while (1)
 	{
 		printf("\n Enter\n A : for New Phone number addition.");
@@ -52,7 +54,6 @@ int main()
 			case 'D':
 				deleterecords();break;
 			case 'E':
-				system("cls");
 				printf("\n\n\t\t\t\tTHANK YOU");
 				printf("\n\n\n\n\n:\n\tFOR USING OUR SERVICE. Please come again");
 				exit(0);

@@ -19,19 +19,12 @@ Telephone Billing System, can perform and manage billing operations like they do
 ![Untitled Workspace (1)](https://user-images.githubusercontent.com/82401251/152638461-80c5c1e7-211c-404a-b6ab-d468a7897d5f.jpg)
 
 
-# 4W's & 1H
+# 5W's & 1H
 
-## 4W's:
-WHAT : Telephonic Billing System.
+![WhatsApp Image 2022-02-11 at 10 44 13](https://user-images.githubusercontent.com/77672209/153552697-2117870e-fc1b-4f4b-b1e6-c03aafe5aa14.jpeg)
 
-WHERE : Used in Telephonic industries.
 
-WHEN : Used for billing.
-
-WHY : For easy and faster billing.
-
-## 1H:
-HOW : Operates by user inputs.
+# Requriements
 
 ## HIGH LEVEL REQURIEMENTS
 
@@ -48,9 +41,13 @@ HOW : Operates by user inputs.
 
 |LLR(ID)| Description|
 ---  | --- |
-|LLR01|  Name|
-|LLR02|  Phone number|
-|LLR03|  Amount|
+|LLR01_HLR01|Adding Name|
+|LLR02_HLR01|Adding Phone number|
+|LLR03_HLR01|Adding Amount|
+|LLR04_HLR02| Phone number|
+|LLR05_HLR02| Amount|
+|LLR06_HLR03|Search Phone number|
+|LLR07_HLR04|Delete Phone number|
 
 
 # Behavioural Design
@@ -73,4 +70,35 @@ HOW : Operates by user inputs.
 ## **Low Level Structural Design**
 
 ![WhatsApp Image 2022-02-08 at 8 55 12 PM](https://user-images.githubusercontent.com/77672209/153137964-2a0c1e2f-32b1-452c-ba37-a05942703dcb.jpeg)
+
+# Test Plan
+
+## Test Plan for High Level Requirements
+
+|Test ID|HLR|Descrition|Input|EXpected Output|Actual Output|
+--- | --- | --- | --- | --- | --- |
+|TID01|HLR01|Adding Records|A|Success|Success|
+|TID02|HLR02|Payment|P|Success|Success|
+|TID03|HLR03|Search Records|S|Success|Success|
+|TID04|HLR04|Delete Records|D|Success|Success|
+|TID05|HLR05|Exit|E|Success|Success|
+
+
+## Test Plan for Low Level Requirements
+
+|Test ID|LLR|Description|Input|Expected Output|Actual Output|
+--- | --- | --- | --- | --- | --- |
+|TID01|LLR01|Adding Records (A)|Name:Nimitha,Phone No:9346154367,Amount:200|Added Successfully|Added Successfully|
+|TID02|LLR02|Payment (P)|Phone No:9346154367,Amount:200|Payment Done|Payment Done|
+|TID03|LLR03|Search Records (S)|Phone No:9346154367|Record Found|Record Found|
+|TID04|LLR04|Delete Record (D)|Phone No:9346154367|Record Successfully Deleted| Record Successfully Deleted|
+|TID05|LLR05|Exit (E)|E|Thank You|Thank You|
+
+# Output
+
+![Page_1](https://user-images.githubusercontent.com/77672209/153555735-f18d77d9-3e58-4f99-a4a2-a12012fc8151.png)
+![Page_2](https://user-images.githubusercontent.com/77672209/153555745-0c7a50e3-aefa-441c-ab4b-de08096cd287.png)
+![Payment](https://user-images.githubusercontent.com/77672209/153555752-1215e101-0af3-4109-aee3-c3c7ce08b517.png)
+![Search](https://user-images.githubusercontent.com/77672209/153555761-c5f739f9-643e-4532-bd87-197a5b1db3ef.png)
+![Exit](https://user-images.githubusercontent.com/77672209/153555770-04641e2f-4d51-40e0-bf2e-ac1fda24a97a.png)
 

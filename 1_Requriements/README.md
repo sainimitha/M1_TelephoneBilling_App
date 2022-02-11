@@ -19,19 +19,9 @@ Telephone Billing System, can perform and manage billing operations like they do
 ![Untitled Workspace (1)](https://user-images.githubusercontent.com/82401251/152638461-80c5c1e7-211c-404a-b6ab-d468a7897d5f.jpg)
 
 
-# 4W's & 1H
+# 5W's & 1H
+![WhatsApp Image 2022-02-11 at 10 44 13](https://user-images.githubusercontent.com/77672209/153552697-2117870e-fc1b-4f4b-b1e6-c03aafe5aa14.jpeg)
 
-## 4W's:
-WHAT : Telephonic Billing System.
-
-WHERE : Used in Telephonic industries.
-
-WHEN : Used for billing.
-
-WHY : For easy and faster billing.
-
-## 1H:
-HOW : Operates by user inputs.
 
 
 # REQURIEMENTS
@@ -51,7 +41,10 @@ HOW : Operates by user inputs.
 
 |LLR(ID)| Description|
 ---  | --- |
-|LLR01|  Name|
-|LLR02|  Phone number|
-|LLR03|  Amount|
-
+|LLR01_HLR01|Adding Name|
+|LLR02_HLR01|Adding Phone number|
+|LLR03_HLR01|Adding Amount|
+|LLR04_HLR02| Phone number|
+|LLR05_HLR02| Amount|
+|LLR06_HLR03|Search Phone number|
+|LLR07_HLR04|Delete Phone number|
