@@ -8,7 +8,7 @@
 
 ## Code Inspector
 
-- <a href="https://app.codiga.io/public/user/github/sainimitha">
+<a href="https://app.codiga.io/public/user/github/sainimitha">
    <img src="https://api.codiga.io/public/badge/user/github/sainimitha?style=light" alt="codiga badge" />
 </a>
 
